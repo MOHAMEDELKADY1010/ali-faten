@@ -11,6 +11,8 @@ import Footer from './components/Footer'
 import MusicPlayer from './components/MusicPlayer'
 import SectionDivider from './components/SectionDivider'
 import Envelope from './components/Envelope'
+import IntroCover1 from './components/IntroCover1'
+
 
 export default function App() {
   const [introVisible, setIntroVisible] = useState(true)
@@ -28,7 +30,7 @@ export default function App() {
       {/* Page transition overlay */}
       <AnimatePresence>
         {introVisible && (
-          <IntroCover onOpen={handleOpen} setplaying={setplaying} />
+          <IntroCover1 onOpen={handleOpen} setplaying={setplaying} />
         )}
       </AnimatePresence>
 
