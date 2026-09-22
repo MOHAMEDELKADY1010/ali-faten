@@ -27,7 +27,7 @@ export default function MusicPlayer({playing,setPlaying}) {
     <>
       <audio
         ref={audioRef}
-        src="/music/music.mp3"
+        src="/src/music/music.mp3"
         loop
         preload="auto"
       />

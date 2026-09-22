@@ -46,10 +46,10 @@ export default function IntroCover1({ onOpen, setplaying }) {
             <video
               ref={videoRef}
               className="absolute inset-0 w-full h-full object-cover"
-              src="/public/vidieo/WhatsApp Video 2026-09-22 at 2.45.47 PM.mp4"
+              src="/src/veduo/vidieo/WhatsApp Video 2026-09-22 at 2.45.47 PM.mp4"
               muted
               playsInline
-              poster="/public/images/cover.jpg"
+              poster="/src/veduo/images/cover.jpg"
               preload="auto"
               onLoadedData={() => {
                 setVideoLoaded(true);

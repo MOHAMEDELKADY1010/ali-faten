@@ -18,7 +18,7 @@ export default function Hero() {
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
-          src="/public/vidieo/hero.mp4"
+          src="/src/veduo/vidieo/hero.mp4"
           // src="https://res.cloudinary.com/daqznvdzn/video/upload/v1780113857/hero_fzvisc.mp4"
           autoPlay
           muted
