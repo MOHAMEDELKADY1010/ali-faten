@@ -4,9 +4,9 @@ import IntroCover from './components/IntroCover'
 import Hero from './components/Hero'
 import Countdown from './components/Countdown'
 import Welcome from './components/Welcome'
-import Gallery from './components/Gallery'
+// import Gallery from './components/Gallery'
 import EventDetails from './components/EventDetails'
-import RSVP from './components/RSVP'
+// import RSVP from './components/RSVP'
 import Footer from './components/Footer'
 import MusicPlayer from './components/MusicPlayer'
 import SectionDivider from './components/SectionDivider'
@@ -74,13 +74,13 @@ export default function App() {
             <SectionDivider />
 
             {/* Gallery */}
-            <Gallery />
+            {/* <Gallery /> */}
 
             {/* Event Details — dark section */}
             <EventDetails />
 
             {/* RSVP */}
-            <RSVP />
+            {/* <RSVP /> */}
 
             {/* Footer */}
             <Footer />

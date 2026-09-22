@@ -334,7 +334,7 @@ export default function EventDetails() {
                   letterSpacing: "0.1em",
                 }}
               >
-                Hav Moon
+                Half Moon
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@ export default function EventDetails() {
                 marginBottom: "10px",
               }}
             >
-              Hav Moon
+              Half Moon
             </p>
             <p
               style={{
@@ -444,7 +444,7 @@ export default function EventDetails() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Hav Moon"
+            title="Half Moon"
           />
           
         </motion.div>

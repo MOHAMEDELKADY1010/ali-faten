@@ -9,7 +9,7 @@ export default function Footer() {
     <footer
       ref={ref}
       className="relative py-16 overflow-hidden"
-      style={{ background: '#0a0705' }}
+      style={{ background: '#F2EDE3' }}F2EDE3
     >
       {/* Top line */}
       <div
@@ -44,7 +44,7 @@ export default function Footer() {
             fontFamily: "'Cormorant Garant', serif",
             fontSize: 'clamp(32px, 7vw, 52px)',
             fontWeight: '300',
-            color: '#F9F6F1',
+            color: '#0a0705',
             letterSpacing: '0.08em',
           }}
         >
@@ -65,7 +65,7 @@ export default function Footer() {
             fontSize: '11px',
             letterSpacing: '0.35em',
             fontWeight: '300',
-            color: 'rgba(249,246,241,0.35)',
+            color: '#0a0705',
             textTransform: 'uppercase',
             marginTop: '12px',
             marginBottom: '32px',
@@ -96,7 +96,7 @@ export default function Footer() {
             fontSize: '11px',
             letterSpacing: '0.15em',
             fontWeight: '300',
-            color: 'rgba(249,246,241,0.2)',
+            color: '#0a0705',
           }}
         >
           Made with love by{' '}
@@ -104,7 +104,7 @@ export default function Footer() {
             href="https://wa.me/201010394673"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'rgba(201,169,110,0.5)', textDecoration: 'none', transition: 'color 0.3s' }}
+            style={{ color: '#C9A96E', textDecoration: 'none', transition: 'color 0.3s' }}
             onMouseEnter={(e) => e.target.style.color = '#C9A96E'}
             onMouseLeave={(e) => e.target.style.color = 'rgba(201,169,110,0.5)'}
           >
