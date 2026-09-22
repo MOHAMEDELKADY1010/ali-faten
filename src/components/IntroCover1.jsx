@@ -1,5 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import cover from "../assets/vidieo/videio.mp4";
+import cover1 from "../assets/music/images/cover.jpg";
 
 export default function IntroCover1({ onOpen, setplaying }) {
   const [isOpening, setIsOpening] = useState(false);
@@ -46,10 +48,9 @@ export default function IntroCover1({ onOpen, setplaying }) {
             <video
               ref={videoRef}
               className="absolute inset-0 w-full h-full object-cover"
-              src="/src/assets/vidieo/videio.mp4"
               muted
               playsInline
-              poster="/src/assets/music/images/cover.jpg"
+              poster={cover1}
               preload="auto"
               onLoadedData={() => {
                 setVideoLoaded(true);
@@ -57,7 +58,9 @@ export default function IntroCover1({ onOpen, setplaying }) {
               style={{
                 filter: "brightness(0.75) saturate(0.9)",
               }}
-            />
+            >
+              <source src={cover} type="video/mp4" />
+            </video>
           </motion.div>
         </div>
         <div className="absolute inset-0 pointer-events-none overflow-hidden">

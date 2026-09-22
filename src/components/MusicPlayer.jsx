@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
+
 export default function MusicPlayer({playing,setPlaying}) {
   // const [playing, setPlaying] = useState(false)
   const [visible, setVisible] = useState(false)

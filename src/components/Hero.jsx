@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import cover from "../assets/vidieo/hero.mp4";
 
 export default function Hero() {
   const videoRef = useRef(null);
@@ -18,7 +19,6 @@ export default function Hero() {
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
-          src="/src/assets/vidieo/hero.mp4"
           // src="https://res.cloudinary.com/daqznvdzn/video/upload/v1780113857/hero_fzvisc.mp4"
           autoPlay
           muted
@@ -26,7 +26,9 @@ export default function Hero() {
           playsInline
           onLoadedData={() => setVideoLoaded(true)}
           style={{ filter: "brightness(0.75) saturate(0.9)" }}
-        />
+        >
+          <source src={cover} type="video/mp4" />
+        </video>
         {/* Fallback dark cinematic background if video fails */}
         {/* <div
           className="absolute inset-0 w-full h-full"
@@ -64,154 +66,154 @@ export default function Hero() {
       /> */}
 
       {/* Content */}
-     <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
-  {/* Small label */}
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1.0, delay: 2.0 }}
-    style={{
-      fontFamily: "'Montserrat', sans-serif",
-      fontSize: "15px",
-      letterSpacing: "0.05em",
-      fontWeight: "300",
-      color: "#fff",
-      textTransform: "uppercase",
-      marginBottom: "50px",
-      marginTop: "-100px",
-    }}
-  >
-    بسم الله الرحمن الرحيم
-  </motion.p>
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
+        {/* Small label */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, delay: 2.0 }}
+          style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: "15px",
+            letterSpacing: "0.05em",
+            fontWeight: "300",
+            color: "#fff",
+            textTransform: "uppercase",
+            marginBottom: "50px",
+            marginTop: "-100px",
+          }}
+        >
+          بسم الله الرحمن الرحيم
+        </motion.p>
 
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1.0, delay: 2.4 }}
-    style={{
-      fontFamily: "'Montserrat', sans-serif",
-      fontSize: "13px",
-      letterSpacing: "0.4em",
-      fontWeight: "300",
-      color: "#fff",
-      textTransform: "uppercase",
-      marginBottom: "100px",
-    }}
-  >
-    We're Getting Married
-  </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, delay: 2.4 }}
+          style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: "13px",
+            letterSpacing: "0.4em",
+            fontWeight: "300",
+            color: "#fff",
+            textTransform: "uppercase",
+            marginBottom: "100px",
+          }}
+        >
+          We're Getting Married
+        </motion.p>
 
-  {/* Ornament line */}
-  <motion.div
-    initial={{ opacity: 0, scaleX: 0 }}
-    animate={{ opacity: 1, scaleX: 1 }}
-    transition={{ duration: 1.2, delay: 2.8 }}
-    className="flex items-center gap-4 mb-6"
-  >
-    <div
-      style={{
-        width: "50px",
-        height: "1px",
-        background: "linear-gradient(90deg, transparent, #C9A96E)",
-      }}
-    />
-    <div
-      style={{
-        width: "5px",
-        height: "5px",
-        background: "#C9A96E",
-        transform: "rotate(45deg)",
-      }}
-    />
-    <div
-      style={{
-        width: "50px",
-        height: "1px",
-        background: "linear-gradient(90deg, #C9A96E, transparent)",
-      }}
-    />
-  </motion.div>
+        {/* Ornament line */}
+        <motion.div
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          transition={{ duration: 1.2, delay: 2.8 }}
+          className="flex items-center gap-4 mb-6"
+        >
+          <div
+            style={{
+              width: "50px",
+              height: "1px",
+              background: "linear-gradient(90deg, transparent, #C9A96E)",
+            }}
+          />
+          <div
+            style={{
+              width: "5px",
+              height: "5px",
+              background: "#C9A96E",
+              transform: "rotate(45deg)",
+            }}
+          />
+          <div
+            style={{
+              width: "50px",
+              height: "1px",
+              background: "linear-gradient(90deg, #C9A96E, transparent)",
+            }}
+          />
+        </motion.div>
 
-  {/* Main name */}
-  <motion.h1
-    initial={{ opacity: 0, y: 30 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{
-      duration: 1.4,
-      delay: 3.2,
-      ease: [0.76, 0, 0.24, 1],
-    }}
-    style={{
-      fontFamily: "'Cormorant Garant', 'Playfair Display', serif",
-      fontSize: "clamp(56px, 12vw, 120px)",
-      fontWeight: "300",
-      color: "#fff",
-      lineHeight: "1",
-      letterSpacing: "0.06em",
-      textShadow: "0 4px 60px rgba(0,0,0,0.5)",
-    }}
-  >
-    Ali
-  </motion.h1>
+        {/* Main name */}
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 1.4,
+            delay: 3.2,
+            ease: [0.76, 0, 0.24, 1],
+          }}
+          style={{
+            fontFamily: "'Cormorant Garant', 'Playfair Display', serif",
+            fontSize: "clamp(56px, 12vw, 120px)",
+            fontWeight: "300",
+            color: "#fff",
+            lineHeight: "1",
+            letterSpacing: "0.06em",
+            textShadow: "0 4px 60px rgba(0,0,0,0.5)",
+          }}
+        >
+          Ali
+        </motion.h1>
 
-  {/* & separator */}
-  <motion.div
-    initial={{ opacity: 0, scale: 0.7 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1.0, delay: 4.0 }}
-    style={{
-      fontFamily: "'Cormorant Garant', serif",
-      fontSize: "clamp(32px, 5vw, 56px)",
-      color: "#C9A96E",
-      fontStyle: "italic",
-      fontWeight: "300",
-      letterSpacing: "0.1em",
-      marginTop: "4px",
-      marginBottom: "4px",
-    }}
-  >
-    &amp;
-  </motion.div>
+        {/* & separator */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.7 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.0, delay: 4.0 }}
+          style={{
+            fontFamily: "'Cormorant Garant', serif",
+            fontSize: "clamp(32px, 5vw, 56px)",
+            color: "#C9A96E",
+            fontStyle: "italic",
+            fontWeight: "300",
+            letterSpacing: "0.1em",
+            marginTop: "4px",
+            marginBottom: "4px",
+          }}
+        >
+          &amp;
+        </motion.div>
 
-  <motion.h1
-    initial={{ opacity: 0, y: 30 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{
-      duration: 1.4,
-      delay: 4.8,
-      ease: [0.76, 0, 0.24, 1],
-    }}
-    style={{
-      fontFamily: "'Cormorant Garant', 'Playfair Display', serif",
-      fontSize: "clamp(56px, 12vw, 120px)",
-      fontWeight: "300",
-      color: "#fff",
-      lineHeight: "1",
-      letterSpacing: "0.06em",
-      textShadow: "0 4px 60px rgba(0,0,0,0.5)",
-    }}
-  >
-    Faten
-  </motion.h1>
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 1.4,
+            delay: 4.8,
+            ease: [0.76, 0, 0.24, 1],
+          }}
+          style={{
+            fontFamily: "'Cormorant Garant', 'Playfair Display', serif",
+            fontSize: "clamp(56px, 12vw, 120px)",
+            fontWeight: "300",
+            color: "#fff",
+            lineHeight: "1",
+            letterSpacing: "0.06em",
+            textShadow: "0 4px 60px rgba(0,0,0,0.5)",
+          }}
+        >
+          Faten
+        </motion.h1>
 
-  {/* Date */}
-  <motion.p
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1.0, delay: 5.5 }}
-    style={{
-      fontFamily: "'Montserrat', sans-serif",
-      fontSize: "12px",
-      letterSpacing: "0.4em",
-      fontWeight: "300",
-      color: "rgba(255,255,255,0.6)",
-      textTransform: "uppercase",
-      marginTop: "70px",
-    }}
-  >
-    July 31, 2026
-  </motion.p>
-</div>
+        {/* Date */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.0, delay: 5.5 }}
+          style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: "12px",
+            letterSpacing: "0.4em",
+            fontWeight: "300",
+            color: "rgba(255,255,255,0.6)",
+            textTransform: "uppercase",
+            marginTop: "70px",
+          }}
+        >
+          July 31, 2026
+        </motion.p>
+      </div>
 
       {/* Scroll indicator */}
       <motion.div
@@ -259,5 +261,3 @@ export default function Hero() {
     </section>
   );
 }
-
-
