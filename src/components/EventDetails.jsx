@@ -334,7 +334,7 @@ export default function EventDetails() {
                   letterSpacing: "0.1em",
                 }}
               >
-                El Massia Hall
+                Hav Moon
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@ export default function EventDetails() {
                 marginBottom: "10px",
               }}
             >
-              El Massia
+              Hav Moon
             </p>
             <p
               style={{
@@ -377,7 +377,7 @@ export default function EventDetails() {
             ></p>
 
             <a
-              href="https://maps.app.goo.gl/28NRXFZWg76JoqhQ9"
+              href="https://maps.app.goo.gl/6N5pqJK2QacFLUHAA"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 group"
@@ -432,7 +432,7 @@ export default function EventDetails() {
           style={{ border: "1px solid rgba(201,169,110,0.15)" }}
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.285984513212!2d31.358841650865568!3d31.04613719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd799be713b%3A0xe26db5e924aa4ef!2z2KfZhNmF2KfYs9mK2Kk!5e0!3m2!1sar!2seg!4v1790093153640!5m2!1sar!2seg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.3411287096983!2d31.346939225324608!3d31.044601670495254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79e7c9683bd93%3A0x6f24246c715a6e9c!2z2YLYp9i52Kkg2YfYp9mBINmF2YjZhg!5e0!3m2!1sar!2seg!4v1790095607997!5m2!1sar!2seg"
             width="600"
             height="450"
             style={{
@@ -444,7 +444,7 @@ export default function EventDetails() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Elmassia"
+            title="Hav Moon"
           />
           
         </motion.div>

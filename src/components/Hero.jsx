@@ -211,7 +211,7 @@ export default function Hero() {
             marginTop: "70px",
           }}
         >
-          October 18, 2026
+          October 16, 2026
         </motion.p>
       </div>
 
