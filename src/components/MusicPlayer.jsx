@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import music from "../assets/music/music.mp3";
 
 
 export default function MusicPlayer({playing,setPlaying}) {
@@ -28,7 +29,7 @@ export default function MusicPlayer({playing,setPlaying}) {
     <>
       <audio
         ref={audioRef}
-        src="/src/assets/music/music.mp3"
+        src={music}
         loop
         preload="auto"
       />
