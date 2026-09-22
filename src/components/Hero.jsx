@@ -140,7 +140,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 1.4,
-            delay: 3.2,
+            delay: 3,
             ease: [0.76, 0, 0.24, 1],
           }}
           style={{
@@ -153,7 +153,7 @@ export default function Hero() {
             textShadow: "0 4px 60px rgba(0,0,0,0.5)",
           }}
         >
-          Ali
+          Mostafa
         </motion.h1>
 
         {/* & separator */}
@@ -193,7 +193,7 @@ export default function Hero() {
             textShadow: "0 4px 60px rgba(0,0,0,0.5)",
           }}
         >
-          Faten
+          Nada
         </motion.h1>
 
         {/* Date */}
@@ -211,7 +211,7 @@ export default function Hero() {
             marginTop: "70px",
           }}
         >
-          July 31, 2026
+          October 18, 2026
         </motion.p>
       </div>
 

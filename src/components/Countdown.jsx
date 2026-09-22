@@ -63,7 +63,7 @@ export default function Countdown() {
   const sectionRef = useRef(null)
   const isInView = useInView(sectionRef, { once: true, margin: '-100px' })
 
-  const targetDate = new Date('2026-07-31T21:00:00')
+  const targetDate = new Date('2026-10-18T21:00:00')
 
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
 
@@ -162,7 +162,7 @@ export default function Countdown() {
             marginBottom: '52px',
           }}
         >
-          Until 31 July 2026
+          Until 18 October 2026
         </motion.p>
 
         {/* Countdown Units */}

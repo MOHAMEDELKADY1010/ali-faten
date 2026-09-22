@@ -334,7 +334,7 @@ export default function EventDetails() {
                   letterSpacing: "0.1em",
                 }}
               >
-                Amrren
+                El Massia Hall
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@ export default function EventDetails() {
                 marginBottom: "10px",
               }}
             >
-              The Venue
+              El Massia
             </p>
             <p
               style={{
@@ -377,8 +377,7 @@ export default function EventDetails() {
             ></p>
 
             <a
-              href="https://maps.app.goo.gl/Ah1Xmg6DQzw689hS8"
-              
+              href="https://maps.app.goo.gl/28NRXFZWg76JoqhQ9"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 group"
@@ -433,9 +432,9 @@ export default function EventDetails() {
           style={{ border: "1px solid rgba(201,169,110,0.15)" }}
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3491663.559663758!2d37.5249514!3d31.280861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd4bf6fb5b1%3A0x35d1b920d5e3bfaa!2z2YLYp9i52Kkg2YLZhdix2YrZhiDYqNi32YTYrtin!5e0!3m2!1sar!2seg!4v1782401721223!5m2!1sar!2seg"
-            width="100%"
-            height="380"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.285984513212!2d31.358841650865568!3d31.04613719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd799be713b%3A0xe26db5e924aa4ef!2z2KfZhNmF2KfYs9mK2Kk!5e0!3m2!1sar!2seg!4v1790093153640!5m2!1sar!2seg"
+            width="600"
+            height="450"
             style={{
               border: 0,
               display: "block",
@@ -445,8 +444,9 @@ export default function EventDetails() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="ammren"
+            title="Elmassia"
           />
+          
         </motion.div>
       </div>
     </section>

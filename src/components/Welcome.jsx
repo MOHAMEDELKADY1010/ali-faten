@@ -157,7 +157,7 @@ export default function Welcome() {
               color: '#2A1F12',
               letterSpacing: '0.06em',
             }}>
-              Ali
+              Mostafa
             </p>
           </div>
           <div style={{
@@ -177,7 +177,7 @@ export default function Welcome() {
               color: '#2A1F12',
               letterSpacing: '0.06em',
             }}>
-              Faten
+              Nada
             </p>
           </div>
         </motion.div>

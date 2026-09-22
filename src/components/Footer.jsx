@@ -48,11 +48,11 @@ export default function Footer() {
             letterSpacing: '0.08em',
           }}
         >
-        Ali  
+        Mostafa  
           <span style={{ color: '#C9A96E', fontStyle: 'italic', margin: '0 10px' }}>
             &amp;
           </span>
-          Faten
+          Nada
         </motion.h2>
 
         {/* Date */}
@@ -71,7 +71,7 @@ export default function Footer() {
             marginBottom: '32px',
           }}
         >
-          July 31, 2026
+          October 18, 2026
         </motion.p>
 
         {/* Bottom ornament */}
@@ -101,7 +101,7 @@ export default function Footer() {
         >
           Made with love by{' '}
           <a
-            href="https://mohamedelkady.netlify.app/"
+            href="https://wa.me/201010394673"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'rgba(201,169,110,0.5)', textDecoration: 'none', transition: 'color 0.3s' }}
