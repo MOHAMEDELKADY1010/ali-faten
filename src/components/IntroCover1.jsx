@@ -46,10 +46,10 @@ export default function IntroCover1({ onOpen, setplaying }) {
             <video
               ref={videoRef}
               className="absolute inset-0 w-full h-full object-cover"
-              src="/src/veduo/vidieo/videio.mp4"
+              src="/src/assets/vidieo/videio.mp4"
               muted
               playsInline
-              poster="/src/veduo/images/cover.jpg"
+              poster="/src/assets/music/images/cover.jpg"
               preload="auto"
               onLoadedData={() => {
                 setVideoLoaded(true);
